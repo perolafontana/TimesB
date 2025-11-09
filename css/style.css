@@ -1,0 +1,124 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef2f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(to right, #0c4da2, #1389fc);
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+/* Navegação */
+nav {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 15px 0;
+  overflow-x: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 15px;
+  padding: 0 20px;
+}
+
+nav li {
+  padding: 0px 0px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0c4da2;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav li:hover {
+  background-color: #e3efff;
+}
+
+/* Conteúdo principal */
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Brasões */
+.brasao {
+  max-width: 220px;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Rodapé */
+footer {
+  background-color: #0c4da2;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+/* Estilo geral da barra de navegação */
+nav {
+  background-color: #024;
+  padding: 10px 0;
+}
+
+/* Lista de navegação */
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Espaçamento reduzido entre itens */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+}
+
+/* Itens da barra */
+nav li {
+  padding: 0; /* Remove espaço interno extra */
+}
+
+/* Links de navegação */
+nav a {
+  display: inline-block;
+  padding: 6px 10px; /* ⬇ Padding mais compacto */
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #036;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito hover */
+nav a:hover {
+  background-color: #048;
+}
